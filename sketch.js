@@ -30,6 +30,7 @@ function draw() {
   background(backgroundImg);
   Engine.update(engine);
 
+  //give frame counts
   if(frameCount%5===0){
     snow.push(new Snow(random(0,400),-50,90))
   }
